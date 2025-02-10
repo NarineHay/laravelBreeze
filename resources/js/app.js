@@ -1,6 +1,10 @@
 import '../css/app.css';
 import './bootstrap';
 
+import '../css/tailwind.css'; // Подключение стилей Tailwind
+// import 'swiper/swiper-bundle.min.css'; // Подключение Swiper
+// import Choices from 'choices.js'; // Если используешь Choices.js
+
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
 import { createApp, h } from 'vue';
