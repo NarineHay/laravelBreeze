@@ -1,6 +1,6 @@
 <script setup>
 import GuestLayout from '@/Layouts/GuestLayout.vue';
-import Layout from '@/Layouts/Layout.vue';
+import Layout from '@/Layouts/User/Layout.vue';
 
 import { Head, Link } from '@inertiajs/vue3';
 

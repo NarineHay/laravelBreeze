@@ -1,8 +1,8 @@
 <script setup>
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
 import { Link } from '@inertiajs/vue3';
-import Footer from '@/Layouts/Footer.vue';
-import NavBar from '@/Layouts/NavBar.vue';
+import Footer from '@/Layouts/User/Footer.vue';
+import NavBar from '@/Layouts/User/NavBar.vue';
 
 
 </script>

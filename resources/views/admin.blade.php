@@ -9,8 +9,7 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-        
+
         <!-- App favicon -->
         {{-- <link rel="shortcut icon" href="{{asset('assets/images/favicon.ico')}}" /> --}}
 
@@ -25,12 +24,11 @@
         <!-- Scripts -->
 
         @routes
-        @vite(['resources/js/app.js', "resources/js/Pages/User/{$page['component']}.vue"])
+        @vite(['resources/js/app.js', "resources/js/Pages/Admin/{$page['component']}.vue"])
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
         @inertia
-<script src="{{asset('assets/user/libs/choices.js/public/assets/scripts/choices.min.js')}}"></script>
 
      <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
      {{-- <script src="assets/libs/@popperjs/core/umd/popper.min.js"></script>
@@ -52,6 +50,5 @@
         <script src="{{asset('assets/js/pages/nav&tabs.js')}}"></script>
 
         <script src="{{asset('assets/js/app.js')}}"></script> --}}
-
     </body>
 </html>
