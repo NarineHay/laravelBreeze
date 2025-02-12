@@ -3,7 +3,7 @@ import '../../public/assets/user/libs/choices.js/public/assets/styles/choices.mi
 import '../../public/assets/user/libs/swiper/swiper-bundle.min.css';
 
 import '../css/user/app.css';
-import '../css/user/app.css';
+import '../css/user/icons.css';
 import '../css/user/tailwind.css';
 
 import '../../public/assets/user/libs/@popperjs/core/umd/popper.min';

@@ -11,7 +11,8 @@ export default defineConfig({
                 'resources/css/user/icons.css',
                 'resources/css/user/tailwind.css',
                 'resources/js/app.js',
-                // 'resources/js/admin.js'
+                'resources/css/admin/style.css',
+                'resources/js/admin.js'
 
             ],
             refresh: true,
@@ -25,4 +26,15 @@ export default defineConfig({
             },
         }),
     ],
+    resolve: {
+        alias: {
+            '@': '/resources/js',
+            '@user': '/resources/js/Pages/User',
+            '@admin': '/resources/js/Pages/Admin',
+        },
+    },
 });
+
+
+
+

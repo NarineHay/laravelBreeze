@@ -7,48 +7,18 @@
         <title inertia>{{ config('app.name', 'Laravel') }}</title>
 
         <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-
-        <!-- App favicon -->
-        {{-- <link rel="shortcut icon" href="{{asset('assets/images/favicon.ico')}}" /> --}}
-
-
-        {{-- <link rel="stylesheet" href="{{asset('assets/libs/choices.js/public/assets/styles/choices.min.css')}}"> --}}
-
-         <!-- Swiper Css -->
-        {{-- <link rel="stylesheet" href="{{asset('assets/libs/swiper/swiper-bundle.min.css')}}"> --}}
-
-        {{-- <link rel="stylesheet" href="{{asset('assets/css/icons.css')}}" /> --}}
-        {{-- <link rel="stylesheet" href="{{asset('assets/css/tailwind.css')}}" /> --}}
-        <!-- Scripts -->
+        <link rel="shortcut icon" href="./img/fav.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
 
         @routes
-        @vite(['resources/js/app.js', "resources/js/Pages/Admin/{$page['component']}.vue"])
+        @vite(['resources/js/admin.js', "resources/js/Pages/Admin/{$page['component']}.vue"])
         @inertiaHead
     </head>
     <body class="font-sans antialiased">
         @inertia
 
-     <script src="https://unicons.iconscout.com/release/v4.0.0/script/monochrome/bundle.js"></script>
-     {{-- <script src="assets/libs/@popperjs/core/umd/popper.min.js"></script>
-     <script src="assets/libs/simplebar/simplebar.min.js"></script>
-
-
-       <script src="{{asset('assets/js/pages/switcher.js')}}"></script>
-
-        <script src="{{asset('assets/libs/choices.js/public/assets/scripts/choices.min.js')}}"></script>
-
-        <script src="{{asset('assets/js/pages/job-list.init.js')}}"></script>
-
-        <script src="{{asset('assets/js/pages/dropdown&modal.init.js')}}"></script>
-
-        <!-- Swiper Js -->
-            <script src="{{asset('assets/libs/swiper/swiper-bundle.min.js')}}"></script>
-            <script src="{{asset('assets/js/pages/swiper.init.js')}}"></script>
-
-        <script src="{{asset('assets/js/pages/nav&tabs.js')}}"></script>
-
-        <script src="{{asset('assets/js/app.js')}}"></script> --}}
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
